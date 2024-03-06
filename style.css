@@ -1,0 +1,86 @@
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #FFE4C9;
+    font-family: 'Shadows Into Light', cursive;
+}
+
+#todolist{
+    width: 500px;
+    height: 700px;
+    box-shadow: 4px 4px 30px rgba(0,0,0,0.3);
+    background-color: #E78895;
+    border-radius: 20px;
+    overflow: hidden;
+}
+h1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 60px;
+    font-size:400%;
+}
+#barbtn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #BED1CF;
+    height: 70px;
+}
+
+#inputBar{
+    width: 200px;
+    height: 40px;
+    background-color: #BED1CF;
+    border: none;
+    font-family: 'Shadows Into Light', cursive;
+    font-size: 123%;
+}
+button{
+    background-color: #E78895;
+    border: none;
+    font-size: 65%;
+    margin-left: auto;
+}
+#addButton{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #BED1CF;
+    border: none;
+    width: 100px;
+    height: 50px;
+    font-family: 'Shadows Into Light', cursive;
+    font-size: 123%;
+    
+}
+#addButton:hover{
+    color: #E78895;
+    
+}
+li{
+    font-size: larger;
+    font-size: 150%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 5px;
+
+}
+
+
+
+#silBtn{
+    margin-left: auto;
+}
+#tamamlandiBtn{
+    margin-left: 5px;
+}
+#silBtn:hover{
+    color: red;
+}
+#tamamlandiBtn:hover{
+    color: rgb(0, 209, 0);
+}
+
